@@ -45,6 +45,11 @@ public class CombinatoriaController {
     }
 
     @FXML
+    void atrasCombinatoria(ActionEvent event) {
+
+    }
+
+    @FXML
     void initialize() {
         assert btnCalcularCombinatoria != null : "fx:id=\"btnCalcularCombinatoria\" was not injected: check your FXML file 'Combinatoria.fxml'.";
         assert txtAreaCombinatoria != null : "fx:id=\"txtAreaCombinatoria\" was not injected: check your FXML file 'Combinatoria.fxml'.";

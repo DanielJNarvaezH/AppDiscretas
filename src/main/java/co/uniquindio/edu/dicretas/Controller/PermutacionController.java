@@ -39,6 +39,11 @@ public class PermutacionController {
     }
 
     @FXML
+    void atrasPermutacion(ActionEvent event) {
+
+    }
+
+    @FXML
     void initialize() {
         assert btnCalcularPermutacion != null : "fx:id=\"btnCalcularPermutacion\" was not injected: check your FXML file 'Permutacion.fxml'.";
         assert txtAreaPermutacion != null : "fx:id=\"txtAreaPermutacion\" was not injected: check your FXML file 'Permutacion.fxml'.";

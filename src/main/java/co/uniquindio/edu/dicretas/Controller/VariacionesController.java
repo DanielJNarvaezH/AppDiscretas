@@ -42,6 +42,11 @@ public class VariacionesController {
     }
 
     @FXML
+    void atrasVariaciones(ActionEvent event) {
+
+    }
+
+    @FXML
     void initialize() {
         assert btnCalcularVariaciones != null : "fx:id=\"btnCalcularVariaciones\" was not injected: check your FXML file 'Variaciones.fxml'.";
         assert txtAraeVariaciones != null : "fx:id=\"txtAraeVariaciones\" was not injected: check your FXML file 'Variaciones.fxml'.";
