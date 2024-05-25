@@ -2,8 +2,6 @@ package co.uniquindio.edu.dicretas.Controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
-import co.uniquindio.edu.dicretas.Model.CalculadoraCombinatoria;
 import co.uniquindio.edu.dicretas.Model.CalculadoraVariaciones;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
