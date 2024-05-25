@@ -25,5 +25,6 @@
             <Font name="Berlin Sans FB Bold" size="15.0" />
          </font>
       </Label>
+      <Button fx:id="btnAtrasPermutacion" layoutX="45.0" layoutY="35.0" mnemonicParsing="false" style="-fx-background-color: #458EF3; -fx-border-color: #2471D8;" text="Atrás" />
    </children>
 </AnchorPane>
