@@ -1,7 +1,10 @@
 package co.uniquindio.edu.dicretas.Controller;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import co.uniquindio.edu.dicretas.App;
 import co.uniquindio.edu.dicretas.Model.CalculadoraVariaciones;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -42,8 +45,8 @@ public class VariacionesController {
     }
 
     @FXML
-    void atrasVariaciones(ActionEvent event) {
-
+    void atrasVariaciones(ActionEvent event) throws IOException {
+        App.setRoot("Calculadora");
     }
 
     @FXML

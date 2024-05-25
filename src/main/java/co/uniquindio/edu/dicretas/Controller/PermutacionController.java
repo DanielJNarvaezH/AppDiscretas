@@ -1,5 +1,6 @@
 package co.uniquindio.edu.dicretas.Controller;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -7,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import co.uniquindio.edu.dicretas.App;
 import co.uniquindio.edu.dicretas.Model.CalculadoraPermutacion;
 
 public class PermutacionController {
@@ -39,7 +41,8 @@ public class PermutacionController {
     }
 
     @FXML
-    void atrasPermutacion(ActionEvent event) {
+    void atrasPermutacion(ActionEvent event) throws IOException {
+        App.setRoot("Calculadora");
 
     }
 

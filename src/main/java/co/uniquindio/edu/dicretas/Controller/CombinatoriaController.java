@@ -1,8 +1,10 @@
 package co.uniquindio.edu.dicretas.Controller;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import co.uniquindio.edu.dicretas.App;
 import co.uniquindio.edu.dicretas.Model.CalculadoraCombinatoria;
 import co.uniquindio.edu.dicretas.Model.CalculadoraPermutacion;
 import javafx.event.ActionEvent;
@@ -45,8 +47,8 @@ public class CombinatoriaController {
     }
 
     @FXML
-    void atrasCombinatoria(ActionEvent event) {
-
+    void atrasCombinatoria(ActionEvent event) throws IOException {
+        App.setRoot("Calculadora");
     }
 
     @FXML
